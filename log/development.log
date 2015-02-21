@@ -189,3 +189,160 @@ ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
   Rendered /Users/grace/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (14.1ms)
   Rendered /Users/grace/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.1ms)
   Rendered /Users/grace/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (117.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-21 14:25:09 -0500
+Processing by DashboardsController#dashboard_1 as HTML
+  Rendered dashboards/dashboard_1.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_skinconfig.html.erb (0.7ms)
+  Rendered layouts/_navigation.html.erb (9.5ms)
+  Rendered layouts/_topnavbar.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 263ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/toastr/toastr.min.css?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/dashboards.css?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/jquery/jquery-2.1.1.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/animate/animate.css?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/pace/pace.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/peity/jquery.peity.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/inspinia.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/flot/jquery.flot.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/flot/jquery.flot.tooltip.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/flot/jquery.flot.resize.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/flot/jquery.flot.pie.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/flot/jquery.flot.time.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/flot/jquery.flot.spline.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/sparkline/jquery.sparkline.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/profile_small.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/jvectormap/jquery-jvectormap-1.2.2.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/jvectormap/jquery-jvectormap-world-mill-en.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/toastr/toastr.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/dashboards.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/chartjs/Chart.min.js?body=1" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/a2.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/a3.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/patterns/header-profile.png" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/a7.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/a4.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/a5.jpg" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/patterns/header-profile-skin-1.png" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+
+
+Started GET "/assets/patterns/header-profile-skin-3.png" for 127.0.0.1 at 2015-02-21 14:25:10 -0500
+  [1m[36m (4.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
